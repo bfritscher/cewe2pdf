@@ -21,6 +21,9 @@ Then from the start-menu open your pyhthon promt and install the dependencies
 
 ```
 pip install lxml reportlab pillow cairosvg fonttools pyyaml
+# fix cairo-2
+pip install pipwin
+pipwin install cairocffi
 ```
 
 If you have installed the Anaconda Pyhton distribution, there is one catch:
@@ -51,7 +54,7 @@ Example
 if you have the software branded for the company DM, called "dm-Fotowelt", then the file ``cewe_folder.txt`` should contain:
 
 ```
-C:\Program Files\dm\dm-Fotowelt\dm-Fotowelt.exe
+C:\Program Files\dm\dm-Fotowelt
 ```
 
 Save the file and close it.
